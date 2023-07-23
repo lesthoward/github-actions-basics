@@ -2,7 +2,7 @@ name: Output Information
 on: workflow_dispatch
 jobs: 
   info:
-    runs-on: ubutu-20.04
+    runs-on: ubuntu-20.04
     steps:
       - name: Output GitHub context
         run: echo "${{ toJson(github) }}" 
