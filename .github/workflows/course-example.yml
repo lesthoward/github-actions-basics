@@ -1,4 +1,4 @@
-name: Course Example
+name: Course example
 on: workflow_dispatch
 jobs:
   deploy:
