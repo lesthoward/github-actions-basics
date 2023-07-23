@@ -1,4 +1,4 @@
-name: Events Demo 1
+name: Course Example
 on: workflow_dispatch
 jobs:
   deploy:
