@@ -10,3 +10,11 @@ jobs:
         run: npm ci
       - name: Run tests
         run: npm test
+  deploy:
+    runs-on: ubuntu-20.04
+    needs: test
+    steps:
+      - name: Build project
+        run: npm run build
+      - name: Deploy to somewhere
+        run: echo "Deploying to ..."
